@@ -585,7 +585,19 @@ body {
     line-height: 1.5;
     letter-spacing: 0.06em;
     color: #ffffff;
+    position: relative;
+    padding-right: 64px;
 }
+
+.footer-content__button-svg {
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 20px;
+}
+
 /*Footer*/
 
 /*Portfolio*/
